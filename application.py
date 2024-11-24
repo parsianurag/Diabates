@@ -37,3 +37,11 @@ if st.button("Predict"):
         st.success("Prediction: Diabetic")
     else:
         st.success("Prediction: Non-Diabetic")
+
+with st.container():
+    right_column, left_column = st.columns(2)
+    with left_column:
+
+        st.write('_For any issue contact me via:_')
+        st.info('[LinkedIn](https://www.linkedin.com/in/anurag-parsi-407377238)', icon="📩")
+        st.info('[anuragdscon@gmail.com]', icon="📩")
